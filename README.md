@@ -10,4 +10,5 @@
    
 3. mh3_play_music (chưa đổ data hình ảnh và âm thanh vào nhé)
    
-![image](https://github.com/user-attachments/assets/e5b538f2-64e3-4a6c-86c0-53b17a8aa2ca)
+![image](https://github.com/user-attachments/assets/0328a45b-0e9c-4abe-a2de-b959201bf413)
+
