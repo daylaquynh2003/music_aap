@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif"
-        android:text="Nhạc Hot TikTok"
+        android:text="Nhạc TikTok Hot"
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:textSize="25sp"
@@ -63,6 +63,8 @@
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
         android:padding="16dp"
         tools:listitem="@layout/tkmh_item_song" />
+
+    />
 
     <LinearLayout
         android:id="@+id/bottom_navigation"
