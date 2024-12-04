@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Dòng tiêu đề -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <!-- Dòng thông báo chính -->
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:text="Chúc mừng bạn X đã đăng ký thành công!"
+        android:textColor="#1E88E5"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Dòng mô tả -->
+
+    <!-- Đoạn văn bản in đậm (spannable text xử lý sau) -->
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:lineSpacingExtra="10dp"
+        android:paddingBottom="10dp"
+        android:text="Một email hướng dẫn xác thực tài khoản đã được gửi đến email abc@gmail.com của bạn. Hãy kiểm tra email abc@gmail.com và kích hoạt tài khoản để sử dụng đầy đủ chức năng của NCT."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvDescriptionBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Nút bấm -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRỞ VỀ NGHE NHẠC"
+        android:background="@drawable/dk_button_background"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        app:backgroundTint="@null"/>
+</LinearLayout>
