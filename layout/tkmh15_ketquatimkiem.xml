@@ -50,7 +50,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv"
         app:layout_constraintVertical_bias="0.0"
-        tools:listitem="@layout/tkmh_item_song" />
+        tools:listitem="@layout/tkmh32_item_song" />
     />
 
     <LinearLayout
