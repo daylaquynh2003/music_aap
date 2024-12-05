@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
         android:padding="16dp"
-        tools:listitem="@layout/tkmh_item_song" />
+        tools:listitem="@layout/tkmh32_item_song" />
 
     />
 
