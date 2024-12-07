@@ -8,7 +8,7 @@
     <EditText
         android:id="@+id/etSearch"
         android:layout_width="0dp"
-        android:layout_height="45dp"
+        android:layout_height="49dp"
         android:layout_margin="16dp"
         android:background="@drawable/tkmh15_search_background"
         android:drawableLeft="@drawable/tkmh_search"
