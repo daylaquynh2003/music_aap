@@ -9,7 +9,7 @@
     <EditText
         android:id="@+id/etSearch"
         android:layout_width="350dp"
-        android:layout_height="35dp"
+        android:layout_height="49dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/tkmh15_search_background"
         android:drawableLeft="@drawable/tkmh_search"
@@ -19,7 +19,6 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintMargin="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
