@@ -10,7 +10,7 @@
     <EditText
         android:id="@+id/etSearch"
         android:layout_width="350dp"
-        android:layout_height="35dp"
+        android:layout_height="49dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/tkmh15_search_background"
         android:drawableLeft="@drawable/tkmh_search"
