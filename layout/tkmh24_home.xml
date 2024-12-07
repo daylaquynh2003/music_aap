@@ -37,7 +37,7 @@
             android:layout_height="100dp"
             android:layout_columnWeight="1"
             android:layout_marginEnd="8dp"
-            android:background="@drawable/radio_button_background"
+            android:background="@drawable/tkmh24_radio_button_background"
             android:text="Gen Z Hit"
             android:textColor="#FFFFFF" />
 
@@ -45,7 +45,7 @@
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_columnWeight="1"
-            android:background="@drawable/radio_button_background"
+            android:background="@drawable/tkmh24_radio_button_background"
             android:text="TikTok"
             android:textColor="#FFFFFF" />
     </GridLayout>
