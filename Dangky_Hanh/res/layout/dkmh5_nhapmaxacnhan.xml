@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kiểm tra điện thoại của bạn"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#161620"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã gồm 6 chữ số đã được gửi tới +84 0123456789"
+        android:textSize="16sp"
+        android:textColor="#3F3B3B"
+        android:layout_marginBottom="24dp" />
+
+    <!-- OTP Input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <!-- Ô nhập mã 1 -->
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/dkmh5_box_background">
+
+            <!-- Gạch ngang -->
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true" />
+
+            <!-- Ô nhập mã -->
+            <EditText
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:background="@android:color/transparent"
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+
+        <!-- Lặp lại các ô mã OTP khác -->
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/dkmh5_box_background">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true" />
+
+            <EditText
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:background="@android:color/transparent"
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/dkmh5_box_background">
+
+            <!-- Gạch ngang -->
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true" />
+
+            <!-- Ô nhập mã -->
+            <EditText
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:background="@android:color/transparent"
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/dkmh5_box_background">
+
+            <!-- Gạch ngang -->
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true" />
+
+            <!-- Ô nhập mã -->
+            <EditText
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:background="@android:color/transparent"
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/dkmh5_box_background">
+
+            <!-- Gạch ngang -->
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true" />
+
+            <!-- Ô nhập mã -->
+            <EditText
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:background="@android:color/transparent"
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/dkmh5_box_background">
+
+            <!-- Gạch ngang -->
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true" />
+
+            <!-- Ô nhập mã -->
+            <EditText
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:background="@android:color/transparent"
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+
+    <!-- Resend Code -->
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvResendCode"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:text="Gửi lại mã"
+        android:textColor="@color/blue"
+        android:clickable="true"
+        android:focusable="true"
+        android:textSize="16sp" />
+</LinearLayout>
